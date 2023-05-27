@@ -14,7 +14,7 @@ const App = () => {
       <Value/>
       <TwoColumnMasonry/>
       <TwoColumnComponent/>
-      <Footer/>
+      <Footer
     </div>
   )
 }

@@ -4,7 +4,6 @@ import Hero from './components/Hero'
 import Value from './components/Value'
 import TwoColumnMasonry from './components/TwoColumnMasonry'
 import TwoColumnComponent from './components/TwoColumnComponent'
-import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -14,7 +13,7 @@ const App = () => {
       <Value/>
       <TwoColumnMasonry/>
       <TwoColumnComponent/>
-      <Footer/>
+      <F
     </div>
   )
 }

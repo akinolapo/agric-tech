@@ -2,7 +2,7 @@ import React from 'react';
 
 const TwoColumnComponent = () => {
   return (
-    <div className="container mx-auto pb-16 px-5 sm:px-32">
+    <div className="container mx-auto pb px-5 sm:px-32">
       <div className="grid items-center grid-cols-1 gap-20 md:grid-cols-2">
         <div className="relative overflow-hidden">
           <video className="w-full h-auto object-cover rounded-md" autoPlay loop muted>
