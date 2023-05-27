@@ -21,8 +21,8 @@ const TwoColumnMasonry = () => {
           </div>
         </div>
         <div>
-          <h2 className="text-xl font-bold text-green-600 mb-4">Innovative Solutions for Agribusiness</h2>
-          <p>Molebi AgroTech Hub is a leading provider of innovative solutions, empowering agribusinesses with cutting-edge technology for enhanced productivity and growth. We understand the challenges faced by the agricultural industry and strive to bridge the gap between traditional practices and modern advancements. Our goal is to revolutionize the way agribusinesses operate, ensuring sustainable and profitable growth in this dynamic sector.</p>
+          <h2 className="text-2xl font-bold text-green-500 mb-4">Innovative Solutions for Agribusiness</h2>
+          <p className="text-lg">Molebi AgroTech Hub is a leading provider of innovative solutions, empowering agribusinesses with cutting-edge technology for enhanced productivity and growth. We understand the challenges faced by the agricultural industry and strive to bridge the gap between traditional practices and modern advancements. Our goal is to revolutionize the way agribusinesses operate, ensuring sustainable and profitable growth in this dynamic sector.</p>
         </div>
       </div>
     </div>
