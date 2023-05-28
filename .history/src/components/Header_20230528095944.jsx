@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import {FiPhoneCall} from 'react-icons/fi'
 
 
 const Header = () => {
@@ -70,9 +69,9 @@ const Header = () => {
         <div className="hidden md:block">
           <button
             type="button"
-            className="bg-white border-green-500 border-2 text-green-500 rounded-lg py-2 px-4 flex items-center transition ease-in-out delay-150 hover:bg-green-500 duration-300 hover:text-white"
+            className="bg-green-500 text-white rounded-lg py-2 px-4"
           >
-            <FiPhoneCall className='mr-2 w-4'/> Call Us
+            Food
           </button>
         </div>
       </div>
@@ -90,7 +89,7 @@ const Header = () => {
                   <a href="#" className="text-gray-800 hover:text-gray-600 text-lg font-semibold">Services</a>
                 </li>
                 <li className="py-2 px-4">
-                  <a href="#" className="text-gray-800 hover:text-gray-600 text-lg font-semibold">Contact</a>
+                  <a href="#" className="text-gray-800 hover:text-gray-600">Contact</a>
                 </li>
                 <li className="py-2 px-4">
                   <button

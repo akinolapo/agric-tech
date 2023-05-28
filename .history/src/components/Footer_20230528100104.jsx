@@ -1,5 +1,5 @@
 import React from 'react';
-import {AiOutlineInstagram, AiOutlineFacebook, AiOutlineTwitter, AiOutlineMail} from 'react-icons/ai'
+import {AiOutlineInstagram, AiOutlineFacebook, AiOutlineTwitter, AiOutlineMail, AiOutlinePhone} from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -21,6 +21,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Connect with Us</h3>
             <p className='flex items-center text-lg'><AiOutlineMail className='green-icon'/><span>hello@molebi.com</span></p>
+            <p className='flex items-center text-lg'><AiOutlinePhone className='green-icon'/><span>+2340000000000</span></p>
             <p className='flex items-center text-lg'><AiOutlineInstagram className='green-icon'/><span>Instagram</span></p>
             <p className='flex items-center text-lg'><AiOutlineFacebook className='green-icon'/><span>Facebook</span></p>
             <p className='flex items-center text-lg'><AiOutlineTwitter className='green-icon'/><span>Twitter</span></p>

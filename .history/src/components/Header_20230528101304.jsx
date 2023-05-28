@@ -70,7 +70,7 @@ const Header = () => {
         <div className="hidden md:block">
           <button
             type="button"
-            className="bg-white border-green-500 border-2 text-green-500 rounded-lg py-2 px-4 flex items-center transition ease-in-out delay-150 hover:bg-green-500 duration-300 hover:text-white"
+            className="bg-white border-green-500 border-2 text-green-500 rounded-lg py-2 px-4 flex items-center transition ease-in-out delay-150 hover:bg-green-500 hover:text-white"
           >
             <FiPhoneCall className='mr-2 w-4'/> Call Us
           </button>
