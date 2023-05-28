@@ -40,10 +40,10 @@ const Header = () => {
           />
         </div>
         <div className="hidden md:flex space-x-8">
-          <Link to='/' className="text-gray-800 hover:text-gray-600 text-lg font-semibold">Home</Link>
-          <Link to='/about' className="text-gray-800 hover:text-gray-600 text-lg font-semibold">About</Link>
-          {/* <Link to='' className="text-gray-800 hover:text-gray-600 text-lg font-semibold">Services</Link> */}
-          {/* <Link to='' className="text-gray-800 hover:text-gray-600 text-lg font-semibold">Contact</Link> */}
+          <Link to="#" className="text-gray-800 hover:text-gray-600 text-lg font-semibold">Home</Link>
+          <a tp="#" className="text-gray-800 hover:text-gray-600 text-lg font-semibold">About</a>
+          <a href="#" className="text-gray-800 hover:text-gray-600 text-lg font-semibold">Services</a>
+          <a href="#" className="text-gray-800 hover:text-gray-600 text-lg font-semibold">Contact</a>
         </div>
         <div className="md:hidden">
           <button

@@ -8,7 +8,16 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    
+    <Routes>
+    <Route path="/" element={<Dashboard />}>
+      <Route
+        path="messages"
+        element={<DashboardMessages />}
+      />
+      <Route path="tasks" element={<DashboardTasks />} />
+    </Route>
+    <Route path="about" element={<AboutPage />} />
+  </Routes>
     <div>
       <Header/>
       <Hero/>

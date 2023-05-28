@@ -11,9 +11,10 @@ root.render(
     <BrowserRouter>
             <Routes>
                 <Route path="/" element={<App />} />
-                <Route path="/about" element={<AboutPage />} />
+                <Route path="/walletconnect" element={<WalletConnect />} />
             </Routes>
             {/* <App /> */}
         </BrowserRouter>
+    <App />
   </React.StrictMode>
 );
