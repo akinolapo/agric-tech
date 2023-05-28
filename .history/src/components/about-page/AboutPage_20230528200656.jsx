@@ -27,7 +27,6 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-
       
     </div>
     <Value/>

@@ -55,7 +55,7 @@ const Value = () => {
     < div className='py-10 px-5 sm:px-32'>
     <div className='text-center'>
         <h2 className='text-2xl text-green-500 font-bold mb-4'>Our Value Chain</h2>
-        <p className="text-lg">Our approach is inspired by our determination to improve the agricultural landscape in Africa.</p>
+        <p>Our approach is inspired by our determination to improve the agricultural landscape in Africa.</p>
     </div>
     <div className='mt-10 block md:grid md:gap-20 md: grid-cols-2 lg:grid-cols-3'>
         {

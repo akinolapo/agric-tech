@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <>
     <Header/>
-    <ImageBackground/>
+    <ImageBackground className="px-5 sm:px-32"/>
     <div className="bg-gray-100 ">
       <div className="container mx-auto py-8 px-5 sm:px-32">
         <div className="grid items-center grid-cols-1 gap-20 md:grid-cols-2">
