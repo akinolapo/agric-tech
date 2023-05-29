@@ -39,7 +39,6 @@ const Header = () => {
             alt="Logo"
             className="h-10 w-auto"
           />
-          </Link>
         </div>
         <div className="hidden md:flex space-x-8">
           <Link to='/' className="text-gray-800 hover:text-gray-600 text-lg font-semibold">Home</Link>

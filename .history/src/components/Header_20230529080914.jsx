@@ -33,13 +33,12 @@ const Header = () => {
     <header className={`bg-white border-b-2 ${isFixed ? 'fixed top-0 z-10 w-full' : ''}`}>
       <div className="container mx-auto flex justify-between items-center py-4 px-5 sm:px-32">
         <div className="flex items-center">
-          <Link to='/'>
+          <Link to='/'
           <img
             src={process.env.PUBLIC_URL+`media/logo.png`}
             alt="Logo"
             className="h-10 w-auto"
           />
-          </Link>
         </div>
         <div className="hidden md:flex space-x-8">
           <Link to='/' className="text-gray-800 hover:text-gray-600 text-lg font-semibold">Home</Link>
