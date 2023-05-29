@@ -1,14 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const CTA2 = () => {
+const CTA = () => {
   return (
     <div className="text-black bg-white text-center py-8 px-5 sm:px-32 sm:py-16">
-      <h3 className="text-3xl font-bold mb-4">Join Molebi AgroTech Hub</h3>
+      <h3 className="text-3xl font-bold mb-4">Contact Us Today</h3>
       <p className="text-lg sm:text-xl mb-8">
-      Together, we can empower agribusinesses with cutting-edge technology, create sustainable farming practices, and inspire the next generation of agricultural leaders.
+      At Molebi AgroTech Hub, we are committed to delivering innovative solutions that empower agribusinesses, enhance productivity, and drive growth. Contact us today to learn more about how we can help you leverage cutting-edge technology for your agribusiness needs.
       </p>
-      <Link to='/contact'>
+      <Link>
       <button className="bg-white text-black py-3 px-8 rounded-full shadow-lg font-semibold text-lg sm:text-xl hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400">
         Contact Now
       </button>
@@ -17,4 +16,4 @@ const CTA2 = () => {
   );
 };
 
-export default CTA2;
+export default CTA;

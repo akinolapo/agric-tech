@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const CTA = () => {
   return (
@@ -8,11 +7,9 @@ const CTA = () => {
       <p className="text-lg sm:text-xl mb-8">
       At Molebi AgroTech Hub, we are committed to delivering innovative solutions that empower agribusinesses, enhance productivity, and drive growth. Contact us today to learn more about how we can help you leverage cutting-edge technology for your agribusiness needs.
       </p>
-      <Link to='/contact'>
-      <button className="bg-white text-black py-3 px-8 rounded-full shadow-lg font-semibold text-lg sm:text-xl hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400">
+      <Link></Link><button className="bg-white text-black py-3 px-8 rounded-full shadow-lg font-semibold text-lg sm:text-xl hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400">
         Contact Now
       </button>
-      </Link>
     </div>
   );
 };

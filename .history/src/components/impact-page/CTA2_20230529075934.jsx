@@ -8,11 +8,10 @@ const CTA2 = () => {
       <p className="text-lg sm:text-xl mb-8">
       Together, we can empower agribusinesses with cutting-edge technology, create sustainable farming practices, and inspire the next generation of agricultural leaders.
       </p>
-      <Link to='/contact'>
+      <Link></Link>
       <button className="bg-white text-black py-3 px-8 rounded-full shadow-lg font-semibold text-lg sm:text-xl hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400">
         Contact Now
       </button>
-      </Link>
     </div>
   );
 };
