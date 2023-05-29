@@ -1,6 +1,5 @@
 import React from 'react';
 import {AiOutlineInstagram, AiOutlineFacebook, AiOutlineTwitter, AiOutlineMail} from 'react-icons/ai'
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -15,11 +14,11 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4">Company</h3>
-            <Link to='/about'><p className='text-lg'>About</p></Link>
-            <Link to='/impact'> <p className='text-lg'>Impact</p></Link>
-            <Link to='/contact'><p className='text-lg'>Contact Us</p></Link>
-           
+            <Link to='/about' className="text-lg">About</Link>
+            <Link to='/about' className="text-lg">About</Link>
             
+            <p className='text-lg'>Services</p>
+            <p className='text-lg'>Contact Us</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4">Connect with Us</h3>
